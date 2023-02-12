@@ -11,3 +11,4 @@ Devices
 - Tablet (Recommended)
 
 Screenshots
+![alt text](https://github.com/hozayfamustafaelsheikh/Food-POS-Dark-Tablet-Device--Community-/blob/main/assets/img/Screenshots/Firefox_Screenshot_2023-02-12T14-13-58.718Z.png?raw=true)
