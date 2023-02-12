@@ -5,3 +5,7 @@
 Languages and Technologies used:
 - HTML
 - CSS
+
+Devices
+- Desktop
+- Tablet (Recommended)
