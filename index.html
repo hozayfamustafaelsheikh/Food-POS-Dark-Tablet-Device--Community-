@@ -4,88 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import google font icons -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,100,0,0"
     />
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> -->
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,200,1,0" /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Document</title>
+    <title>Food POS Dark Tablet Device Community</title>
   </head>
   <body>
+    <!--
+      Figma Design Source https://www.figma.com/file/5mdb0IGeosmkR8z6Zrrz8p/Food-POS-Dark---Tablet-Device-(Community)?node-id=0%3A1&t=gB193wbL7H389SB3-0
+      Web Design Creator: Hozayfa Mustafa Elsheikh
+      Created At: 12-Feb-2023
+    -->
+
+    <!-- Main -->
     <div class="main">
+      <!-- Left Menu -->
       <div class="menu">
+        <!-- Menu List -->
         <div class="menu-list">
+          <!-- First item -->
           <div class="menu-list-item-first">
             <div class="menu-list-item-icon-first">
               <i class="fa-solid fa-store"></i>
-              <!-- <span class="material-symbols-rounded">
-                            store
-                            </span> -->
-              <!-- <span class="material-symbols-outlined">
-                            storefront
-                            </span> -->
             </div>
           </div>
+          <!-- End of Menu Item -->
+          <!-- Meun Item active by default -->
           <div class="menu-list-item active">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> home </span>
             </div>
           </div>
+          <!-- End of Menu Item -->
+          <!-- Menu Item -->
           <div class="menu-list-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> verified </span>
             </div>
           </div>
+          <!-- End of Menu Item -->
+          <!-- Menu Item -->
           <div class="menu-list-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> timeline </span>
             </div>
           </div>
+          <!-- End of Menu Item -->
+          <!-- Menu Item -->
           <div class="menu-list-item">
             <div class="menu-list-item-icon">
-                <span class="material-symbols-rounded">
-                    mail
-                    </span>
+              <span class="material-symbols-rounded"> mail </span>
             </div>
           </div>
+          <!-- End of Menu Item -->
+          <!-- Menu Item -->
           <div class="menu-list-item">
             <div class="menu-list-item-icon">
-                <span class="material-symbols-rounded">
-                    notifications
-                    </span>
+              <span class="material-symbols-rounded"> notifications </span>
             </div>
           </div>
+          <!-- End of Menu Item -->
+          <!-- Menu Item -->
           <div class="menu-list-item">
             <div class="menu-list-item-icon">
-                <span class="material-symbols-rounded">
-                    settings
-                    </span>
-                    
+              <span class="material-symbols-rounded"> settings </span>
             </div>
           </div>
-          <div class="menu-list-item" style="margin-top: 25px;">
+          <!-- End of Menu Item -->
+          <!-- Menu Item -->
+          <div class="menu-list-item logout-item">
             <div class="menu-list-item-icon">
-                <span class="material-symbols-rounded" style="transform: rotate(90deg);">
-                    upload
-                    </span>
+              <span class="material-symbols-rounded logout-item-icon">
+                upload
+              </span>
             </div>
           </div>
+          <!-- End of Menu Item -->
         </div>
+        <!-- End of Menu List -->
       </div>
+      <!-- End of Menu -->
 
+      <!-- Page Content -->
       <div class="page">
+        <!-- Page Header -->
         <div class="page-header">
+          <!-- Page Header Title -->
           <div class="header-title">
             <h1>Jaegar Resto</h1>
             <h3>Tuesday, 2 Feb 2021</h3>
           </div>
+          <!-- End of Header Title -->
+          <!-- Search Field -->
           <div class="header-search">
             <div class="search">
               <i class="fa-solid fa-search"></i>
@@ -97,114 +110,165 @@
               />
             </div>
           </div>
+          <!-- End of Search Field -->
         </div>
+        <!-- End of Page Header -->
 
+        <!-- Home Page Tabs -->
         <div class="tabs">
+          <!-- Home Page Tabs Header-->
           <div class="tabs-header">
+            <!-- Home Page Tabs Header Items-->
             <ul class="tabs-items">
+              <!-- Home Page Tabs Header Item -->
               <li class="tab-item active">Hot Dishes</li>
+              <!-- End of Home Page Tabs Header Item -->
+              <!-- Home Page Tabs Header Item -->
               <li class="tab-item">Cold Dishes</li>
+              <!-- End of Home Page Tabs Header Item -->
+              <!-- Home Page Tabs Header Item -->
               <li class="tab-item">Soup</li>
+              <!-- End of Home Page Tabs Header Item -->
+              <!-- Home Page Tabs Header Item -->
               <li class="tab-item">Grill</li>
+              <!-- End of Home Page Tabs Header Item -->
+              <!-- Home Page Tabs Header Item -->
               <li class="tab-item">Appetizer</li>
+              <!-- End of Home Page Tabs Header Item -->
+              <!-- Home Page Tabs Header Item -->
               <li class="tab-item">Dessert</li>
+              <!-- End of Home Page Tabs Header Item -->
             </ul>
+            <!-- End of Home Page Tabs Header Items -->
           </div>
+          <!-- End of Home Page Tabs Header -->
 
+          <!-- Home Page Tabs Body -->
           <div class="tabs-body">
-            <div class="tab-hot">
-              <div class="tab-body-header">
-                <div class="tab-body-title">
-                  <h1>Choose Dishes</h1>
-                </div>
-                <div class="tab-body-select">
-                  <select name="" id="">
-                    <option value="">Dining</option>
-                    <option value="">Dining</option>
-                    <option value="">Dining</option>
-                  </select>
-                </div>
+            <!-- Home Page Tabs Body Header -->
+            <div class="tab-body-header">
+              <!-- Home Page Tabs Body Header Title -->
+              <div class="tab-body-title">
+                <h1>Choose Dishes</h1>
               </div>
-
-              <div class="items">
-                <div class="item">
-                  <div class="image">
-                    <img src="assets/img/Food.png" alt="" />
-                  </div>
-                  <div class="details">
-                    <h1>Spicy seasoned seafood noodles</h1>
-                    <h3>$ 2.29</h3>
-                    <p>20 Bowls available</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="image">
-                    <img src="assets/img/Food.png" alt="" />
-                  </div>
-                  <div class="details">
-                    <h1>Spicy seasoned seafood noodles</h1>
-                    <h3>$ 2.29</h3>
-                    <p>20 Bowls available</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="image">
-                    <img src="assets/img/Food.png" alt="" />
-                  </div>
-                  <div class="details">
-                    <h1>Spicy seasoned seafood noodles</h1>
-                    <h3>$ 2.29</h3>
-                    <p>20 Bowls available</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="image">
-                    <img src="assets/img/Food.png" alt="" />
-                  </div>
-                  <div class="details">
-                    <h1>Spicy seasoned seafood noodles</h1>
-                    <h3>$ 2.29</h3>
-                    <p>20 Bowls available</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="image">
-                    <img src="assets/img/Food.png" alt="" />
-                  </div>
-                  <div class="details">
-                    <h1>Spicy seasoned seafood noodles</h1>
-                    <h3>$ 2.29</h3>
-                    <p>20 Bowls available</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="image">
-                    <img src="assets/img/Food.png" alt="" />
-                  </div>
-                  <div class="details">
-                    <h1>Spicy seasoned seafood noodles</h1>
-                    <h3>$ 2.29</h3>
-                    <p>20 Bowls available</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="image">
-                    <img src="assets/img/Food.png" alt="" />
-                  </div>
-                  <div class="details">
-                    <h1>Spicy seasoned seafood noodles</h1>
-                    <h3>$ 2.29</h3>
-                    <p>20 Bowls available</p>
-                  </div>
-                </div>
+              <!-- End of Home Page Tabs Body Header Title -->
+              <!-- Home Page Tabs Body Header DropDwon -->
+              <div class="tab-body-select">
+                <select name="" id="">
+                  <option value="">Dining</option>
+                  <option value="">Dining</option>
+                  <option value="">Dining</option>
+                </select>
               </div>
+              <!-- End of Home Page Tabs Body Header DropDwon -->
             </div>
+            <!-- End of Home Page Tabs Body Header -->
+
+            <!-- Home Page Items -->
+            <div class="items">
+              <!-- Home Page Item -->
+              <div class="item">
+                <!-- Home Page Item Image -->
+                <div class="image">
+                  <img src="assets/img/item-01.jpg" alt="" />
+                </div>
+                <!-- End of Home Page Item Image -->
+                <!-- Home Page Item Details -->
+                <div class="details">
+                  <h1>Spicy seasoned seafood noodles</h1>
+                  <h3>$ 2.29</h3>
+                  <p>20 Bowls available</p>
+                </div>
+                <!-- End of Home Page Item Details -->
+              </div>
+              <!-- End of Home Page Item -->
+
+              <!-- Home Page Item -->
+              <div class="item">
+                <!-- Home Page Item Image -->
+                <div class="image">
+                  <img src="assets/img/item-02.jpg" alt="" />
+                </div>
+                <!-- End of Home Page Item Image -->
+                <!-- Home Page Item Details -->
+                <div class="details">
+                  <h1>Salted Pasta with mushroom sauce</h1>
+                  <h3>$ 2.29</h3>
+                  <p>20 Bowls available</p>
+                </div>
+                <!-- End of Home Page Item Details -->
+              </div>
+              <!-- End of Home Page Item -->
+
+              <!-- Home Page Item -->
+              <div class="item">
+                <!-- Home Page Item Image -->
+                <div class="image">
+                  <img src="assets/img/item-03.jpg" alt="" />
+                </div>
+                <!-- End of Home Page Item Image -->
+                <!-- Home Page Item Details -->
+                <div class="details">
+                  <h1>Beef dumpling in hot and sour soup</h1>
+                  <h3>$ 2.29</h3>
+                  <p>20 Bowls available</p>
+                </div>
+                <!-- End of Home Page Item Details -->
+              </div>
+              <!-- End of Home Page Item -->
+
+              <!-- Home Page Item -->
+              <div class="item">
+                <!-- Home Page Item Image -->
+                <div class="image">
+                  <img src="assets/img/item-04.jpg" alt="" />
+                </div>
+                <!-- End of Home Page Item Image -->
+                <!-- Home Page Item Details -->
+                <div class="details">
+                  <h1>Healthy noodle with spinach leaf</h1>
+                  <h3>$ 2.29</h3>
+                  <p>20 Bowls available</p>
+                </div>
+                <!-- End of Home Page Item Details -->
+              </div>
+              <!-- End of Home Page Item -->
+
+              <!-- Home Page Item -->
+              <div class="item">
+                <!-- Home Page Item Image -->
+                <div class="image">
+                  <img src="assets/img/item-05.jpg" alt="" />
+                </div>
+                <!-- End of Home Page Item Image -->
+                <!-- Home Page Item Details -->
+                <div class="details">
+                  <h1>Hot spicy fried rice with omelet</h1>
+                  <h3>$ 2.29</h3>
+                  <p>20 Bowls available</p>
+                </div>
+                <!-- End of Home Page Item Details -->
+              </div>
+              <!-- End of Home Page Item -->
+
+              <!-- Home Page Item -->
+              <div class="item">
+                <!-- Home Page Item Image -->
+                <div class="image">
+                  <img src="assets/img/item-06.jpg" alt="" />
+                </div>
+                <!-- End of Home Page Item Image -->
+                <!-- Home Page Item Details -->
+                <div class="details">
+                  <h1>Spicy instant noodle with special omelette</h1>
+                  <h3>$ 2.29</h3>
+                  <p>20 Bowls available</p>
+                </div>
+                <!-- End of Home Page Item Details -->
+              </div>
+              <!-- End of Home Page Item -->
+            </div>
+            <!-- End of Home Page Items -->
           </div>
         </div>
       </div>
