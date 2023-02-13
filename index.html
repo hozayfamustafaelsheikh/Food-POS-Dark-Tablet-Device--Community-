@@ -39,55 +39,55 @@
           </div>
           <!-- End of Menu Item -->
           <!-- Meun Item active by default -->
-          <div class="menu-list-item active">
+          <a class="menu-list-item active">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> home </span>
             </div>
-          </div>
+          </a>
           <!-- End of Menu Item -->
           <!-- Menu Item -->
-          <div class="menu-list-item">
+          <a class="menu-list-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> verified </span>
             </div>
-          </div>
+          </a>
           <!-- End of Menu Item -->
           <!-- Menu Item -->
-          <div class="menu-list-item">
+          <a class="menu-list-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> timeline </span>
             </div>
-          </div>
+          </a>
           <!-- End of Menu Item -->
           <!-- Menu Item -->
-          <div class="menu-list-item">
+          <a class="menu-list-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> mail </span>
             </div>
-          </div>
+          </a>
           <!-- End of Menu Item -->
           <!-- Menu Item -->
-          <div class="menu-list-item">
+          <a class="menu-list-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> notifications </span>
             </div>
-          </div>
+          </a>
           <!-- End of Menu Item -->
           <!-- Menu Item -->
-          <div class="menu-list-item">
+          <a class="menu-list-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded"> settings </span>
             </div>
-          </div>
+          </a>
           <!-- End of Menu Item -->
           <!-- Menu Item -->
-          <div class="menu-list-item logout-item">
+          <a class="menu-list-item logout-item">
             <div class="menu-list-item-icon">
               <span class="material-symbols-rounded logout-item-icon">
                 upload
               </span>
             </div>
-          </div>
+          </a>
           <!-- End of Menu Item -->
         </div>
         <!-- End of Menu List -->
@@ -127,22 +127,22 @@
             <!-- Home Page Tabs Header Items-->
             <ul class="tabs-items">
               <!-- Home Page Tabs Header Item -->
-              <li class="tab-item active">Hot Dishes</li>
+              <li class="tab-item active" data-tabname="hot_dishes">Hot Dishes</li>
               <!-- End of Home Page Tabs Header Item -->
               <!-- Home Page Tabs Header Item -->
-              <li class="tab-item">Cold Dishes</li>
+              <li class="tab-item" data-tabname="cold_dishes">Cold Dishes</li>
               <!-- End of Home Page Tabs Header Item -->
               <!-- Home Page Tabs Header Item -->
-              <li class="tab-item">Soup</li>
+              <li class="tab-item" data-tabname="soup">Soup</li>
               <!-- End of Home Page Tabs Header Item -->
               <!-- Home Page Tabs Header Item -->
-              <li class="tab-item">Grill</li>
+              <li class="tab-item" data-tabname="grill">Grill</li>
               <!-- End of Home Page Tabs Header Item -->
               <!-- Home Page Tabs Header Item -->
-              <li class="tab-item">Appetizer</li>
+              <li class="tab-item" data-tabname="appetizer">Appetizer</li>
               <!-- End of Home Page Tabs Header Item -->
               <!-- Home Page Tabs Header Item -->
-              <li class="tab-item">Dessert</li>
+              <li class="tab-item" data-tabname="dessert">Dessert</li>
               <!-- End of Home Page Tabs Header Item -->
             </ul>
             <!-- End of Home Page Tabs Header Items -->
@@ -151,131 +151,265 @@
 
           <!-- Home Page Tabs Body -->
           <div class="tabs-body">
-            <!-- Home Page Tabs Body Header -->
-            <div class="tab-body-header">
-              <!-- Home Page Tabs Body Header Title -->
-              <div class="tab-body-title">
-                <h1>Choose Dishes</h1>
+            <!-- Home Page Tab Body -->
+            <div class="tab-body hot_dishes active">
+              <!-- Home Page Tabs Body Header -->
+              <div class="tab-body-header">
+                <!-- Home Page Tabs Body Header Title -->
+                <div class="tab-body-title">
+                  <h1>Choose Dishes</h1>
+                </div>
+                <!-- End of Home Page Tabs Body Header Title -->
+                <!-- Home Page Tabs Body Header DropDwon -->
+                <div class="tab-body-select">
+                  <select name="" id="">
+                    <option value="">Dining</option>
+                    <option value="">Dining</option>
+                    <option value="">Dining</option>
+                  </select>
+                </div>
+                <!-- End of Home Page Tabs Body Header DropDwon -->
               </div>
-              <!-- End of Home Page Tabs Body Header Title -->
-              <!-- Home Page Tabs Body Header DropDwon -->
-              <div class="tab-body-select">
-                <select name="" id="">
-                  <option value="">Dining</option>
-                  <option value="">Dining</option>
-                  <option value="">Dining</option>
-                </select>
+              <!-- End of Home Page Tabs Body Header -->
+              <!-- Home Page Items -->
+              <div class="items">
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-01.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Spicy seasoned seafood noodles</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
+                </div>
+                <!-- End of Home Page Item -->
+
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-02.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Salted Pasta with mushroom sauce</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
+                </div>
+                <!-- End of Home Page Item -->
+
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-03.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Beef dumpling in hot and sour soup</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
+                </div>
+                <!-- End of Home Page Item -->
+
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-04.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Healthy noodle with spinach leaf</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
+                </div>
+                <!-- End of Home Page Item -->
+
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-05.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Hot spicy fried rice with omelet</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
+                </div>
+                <!-- End of Home Page Item -->
+
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-06.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Spicy instant noodle with special omelette</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
+                </div>
+                <!-- End of Home Page Item -->
               </div>
-              <!-- End of Home Page Tabs Body Header DropDwon -->
+              <!-- End of Home Page Items -->
             </div>
-            <!-- End of Home Page Tabs Body Header -->
+            <!-- End of Home Page Tab Body -->
 
-            <!-- Home Page Items -->
-            <div class="items">
-              <!-- Home Page Item -->
-              <div class="item">
-                <!-- Home Page Item Image -->
-                <div class="image">
-                  <img src="assets/img/item-01.jpg" alt="" />
+            
+            <!-- Home Page Tab Body -->
+            <div class="tab-body cold_dishes">
+              <!-- Home Page Tabs Body Header -->
+              <div class="tab-body-header">
+                <!-- Home Page Tabs Body Header Title -->
+                <div class="tab-body-title">
+                  <h1>Cold Dishes</h1>
                 </div>
-                <!-- End of Home Page Item Image -->
-                <!-- Home Page Item Details -->
-                <div class="details">
-                  <h1>Spicy seasoned seafood noodles</h1>
-                  <h3>$ 2.29</h3>
-                  <p>20 Bowls available</p>
+                <!-- End of Home Page Tabs Body Header Title -->
+                <!-- Home Page Tabs Body Header DropDwon -->
+                <div class="tab-body-select">
+                  <select name="" id="">
+                    <option value="">Takeaway</option>
+                    <option value="">Dining</option>
+                    <option value="">Dining</option>
+                  </select>
                 </div>
-                <!-- End of Home Page Item Details -->
+                <!-- End of Home Page Tabs Body Header DropDwon -->
               </div>
-              <!-- End of Home Page Item -->
+              <!-- End of Home Page Tabs Body Header -->
+              <!-- Home Page Items -->
+              <div class="items">
 
-              <!-- Home Page Item -->
-              <div class="item">
-                <!-- Home Page Item Image -->
-                <div class="image">
-                  <img src="assets/img/item-02.jpg" alt="" />
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-02.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Salted Pasta with mushroom sauce</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
                 </div>
-                <!-- End of Home Page Item Image -->
-                <!-- Home Page Item Details -->
-                <div class="details">
-                  <h1>Salted Pasta with mushroom sauce</h1>
-                  <h3>$ 2.29</h3>
-                  <p>20 Bowls available</p>
+                <!-- End of Home Page Item -->
+                
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-01.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Spicy seasoned seafood noodles</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
                 </div>
-                <!-- End of Home Page Item Details -->
-              </div>
-              <!-- End of Home Page Item -->
+                <!-- End of Home Page Item -->
 
-              <!-- Home Page Item -->
-              <div class="item">
-                <!-- Home Page Item Image -->
-                <div class="image">
-                  <img src="assets/img/item-03.jpg" alt="" />
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-04.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Healthy noodle with spinach leaf</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
                 </div>
-                <!-- End of Home Page Item Image -->
-                <!-- Home Page Item Details -->
-                <div class="details">
-                  <h1>Beef dumpling in hot and sour soup</h1>
-                  <h3>$ 2.29</h3>
-                  <p>20 Bowls available</p>
-                </div>
-                <!-- End of Home Page Item Details -->
-              </div>
-              <!-- End of Home Page Item -->
+                <!-- End of Home Page Item -->
 
-              <!-- Home Page Item -->
-              <div class="item">
-                <!-- Home Page Item Image -->
-                <div class="image">
-                  <img src="assets/img/item-04.jpg" alt="" />
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-03.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Beef dumpling in hot and sour soup</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
                 </div>
-                <!-- End of Home Page Item Image -->
-                <!-- Home Page Item Details -->
-                <div class="details">
-                  <h1>Healthy noodle with spinach leaf</h1>
-                  <h3>$ 2.29</h3>
-                  <p>20 Bowls available</p>
-                </div>
-                <!-- End of Home Page Item Details -->
-              </div>
-              <!-- End of Home Page Item -->
+                <!-- End of Home Page Item -->
 
-              <!-- Home Page Item -->
-              <div class="item">
-                <!-- Home Page Item Image -->
-                <div class="image">
-                  <img src="assets/img/item-05.jpg" alt="" />
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-06.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Spicy instant noodle with special omelette</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
                 </div>
-                <!-- End of Home Page Item Image -->
-                <!-- Home Page Item Details -->
-                <div class="details">
-                  <h1>Hot spicy fried rice with omelet</h1>
-                  <h3>$ 2.29</h3>
-                  <p>20 Bowls available</p>
-                </div>
-                <!-- End of Home Page Item Details -->
-              </div>
-              <!-- End of Home Page Item -->
+                <!-- End of Home Page Item -->
 
-              <!-- Home Page Item -->
-              <div class="item">
-                <!-- Home Page Item Image -->
-                <div class="image">
-                  <img src="assets/img/item-06.jpg" alt="" />
+                <!-- Home Page Item -->
+                <div class="item">
+                  <!-- Home Page Item Image -->
+                  <div class="image">
+                    <img src="assets/img/item-05.jpg" alt="" />
+                  </div>
+                  <!-- End of Home Page Item Image -->
+                  <!-- Home Page Item Details -->
+                  <div class="details">
+                    <h1>Hot spicy fried rice with omelet</h1>
+                    <h3>$ 2.29</h3>
+                    <p>20 Bowls available</p>
+                  </div>
+                  <!-- End of Home Page Item Details -->
                 </div>
-                <!-- End of Home Page Item Image -->
-                <!-- Home Page Item Details -->
-                <div class="details">
-                  <h1>Spicy instant noodle with special omelette</h1>
-                  <h3>$ 2.29</h3>
-                  <p>20 Bowls available</p>
-                </div>
-                <!-- End of Home Page Item Details -->
+                <!-- End of Home Page Item -->
               </div>
-              <!-- End of Home Page Item -->
+              <!-- End of Home Page Items -->
             </div>
-            <!-- End of Home Page Items -->
+            <!-- End of Home Page Tab Body -->
           </div>
+          <!-- End of Home Page Tabs Body -->
         </div>
       </div>
       <!-- End of Page Content -->
@@ -692,16 +826,31 @@
           <div class="payment-form">
             <div class="form-group">
               <label for="cardholder">Cardholder Name</label>
-              <input type="text" name="cardholder" id="cardholder" placeholder="John Adams" />
+              <input
+                type="text"
+                name="cardholder"
+                id="cardholder"
+                placeholder="John Adams"
+              />
             </div>
             <div class="form-group">
               <label for="cardnumber">Card Number</label>
-              <input type="text" name="cardnumber" id="cardnumber" placeholder="4656 6548 9987 9855" />
+              <input
+                type="text"
+                name="cardnumber"
+                id="cardnumber"
+                placeholder="4656 6548 9987 9855"
+              />
             </div>
             <div class="d-f j-c-sb a-i-c g-1">
               <div class="form-group mt-0">
                 <label for="expirationdate">Expiration Date</label>
-                <input type="text" name="expirationdate" id="expirationdate" placeholder="12/28" />
+                <input
+                  type="text"
+                  name="expirationdate"
+                  id="expirationdate"
+                  placeholder="12/28"
+                />
               </div>
               <div class="form-group mt-0">
                 <label for="cvv">CVV</label>
@@ -726,14 +875,21 @@
           </div>
           <div class="form-group">
             <label for="tableno">Table No.</label>
-            <input type="password" name="tableno" id="tableno" placeholder="T01" />
+            <input
+              type="password"
+              name="tableno"
+              id="tableno"
+              placeholder="T01"
+            />
           </div>
-        </div> 
+        </div>
         <!-- End of order options -->
         <!-- payment Buttons  -->
         <div class="d-f j-c-sb a-i-c g-1 mt-2">
           <!-- payment Button  -->
-          <button class="payment-button">Cancel</button>
+          <button class="payment-button" id="payment-button-cancel">
+            Cancel
+          </button>
           <!-- End of payment Button  -->
           <!-- payment Button  -->
           <button class="payment-button active">Confirm Payment</button>

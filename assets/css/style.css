@@ -250,7 +250,20 @@ body {
 }
 
 .tabs-body {
+  position: relative;
   padding: 20px 0;
+}
+
+.tab-body {
+  position: absolute;
+  width: auto;
+  display: none;
+  right: 0;
+  left: 0;
+}
+
+.tab-body.active{
+  display: block;
 }
 
 .tab-body-header {
