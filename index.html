@@ -318,7 +318,6 @@
           <!-- End of Cart Button  -->
         </div>
         <!-- End of Cart Buttons  -->
-
         <!-- Cart table  -->
         <div class="cart-table">
           <!-- Cart table Headers -->
@@ -649,9 +648,12 @@
           <p>3 payment methods available</p>
         </div>
         <!-- End of payment titles -->
+        <!-- payment body -->
         <div class="payment-body">
           <h1>Payment Method</h1>
+          <!-- payment methods -->
           <div class="payment-methods">
+            <!-- payment method button -->
             <div class="payment-method-button">
               <input type="radio" id="credit" name="payment-method" />
               <label for="credit">
@@ -661,6 +663,8 @@
                 </div>
               </label>
             </div>
+            <!-- End of payment method button -->
+            <!-- payment method button -->
             <div class="payment-method-button">
               <input type="radio" id="paypal" name="payment-method" />
               <label for="paypal">
@@ -670,6 +674,8 @@
                 </div>
               </label>
             </div>
+            <!-- End of payment method button -->
+            <!-- payment method button -->
             <div class="payment-method-button">
               <input type="radio" id="cash" name="payment-method" />
               <label for="cash">
@@ -679,10 +685,63 @@
                 </div>
               </label>
             </div>
+            <!-- End of payment method button -->
           </div>
+          <!-- End of payment methods -->
+          <!-- payment form -->
+          <div class="payment-form">
+            <div class="form-group">
+              <label for="cardholder">Cardholder Name</label>
+              <input type="text" name="cardholder" id="cardholder" placeholder="John Adams" />
+            </div>
+            <div class="form-group">
+              <label for="cardnumber">Card Number</label>
+              <input type="text" name="cardnumber" id="cardnumber" placeholder="4656 6548 9987 9855" />
+            </div>
+            <div class="d-f j-c-sb a-i-c g-1">
+              <div class="form-group mt-0">
+                <label for="expirationdate">Expiration Date</label>
+                <input type="text" name="expirationdate" id="expirationdate" placeholder="12/28" />
+              </div>
+              <div class="form-group mt-0">
+                <label for="cvv">CVV</label>
+                <input type="password" name="cvv" id="cvv" placeholder="123" />
+              </div>
+            </div>
+          </div>
+          <!-- End of payment form -->
         </div>
+        <!-- End of payment body -->
+        <!-- order options -->
+        <div class="d-f j-c-sb a-i-c g-1">
+          <div class="form-group">
+            <label for="expirationdate">Order Type</label>
+            <div class="form-select">
+              <select name="" id="">
+                <option value="">Dining</option>
+                <option value="">Dining</option>
+                <option value="">Dining</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="tableno">Table No.</label>
+            <input type="password" name="tableno" id="tableno" placeholder="T01" />
+          </div>
+        </div> 
+        <!-- End of order options -->
+        <!-- payment Buttons  -->
+        <div class="d-f j-c-sb a-i-c g-1 mt-2">
+          <!-- payment Button  -->
+          <button class="payment-button">Cancel</button>
+          <!-- End of payment Button  -->
+          <!-- payment Button  -->
+          <button class="payment-button active">Confirm Payment</button>
+          <!-- End of payment Button  -->
+        </div>
+        <!-- End of payment Buttons  -->
       </div>
-      <!-- End of Cart -->
+      <!-- End of payment -->
     </div>
     <!-- End of Main -->
 
