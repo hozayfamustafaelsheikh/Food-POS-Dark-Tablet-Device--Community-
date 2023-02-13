@@ -624,6 +624,7 @@ body {
   z-index: 2;
   height: 100vh;
   overflow: scroll;
+  border-radius: 10px 0 0 10px;
 }
 
 .payment .payment-titles {
@@ -845,6 +846,14 @@ body {
 
 .mt-2 {
   margin-top: 2rem !important;
+}
+
+.mt-0-5 {
+  margin-top: 0.5rem !important;
+}
+
+.mb-0-5 {
+  margin-bottom: 0.5rem !important;
 }
 
 /* End of Payment */
