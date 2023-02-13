@@ -2,6 +2,7 @@
 - UI/UX Designer: yahyaamirudin (https://www.figma.com/@yahyaamirudin)
 - Web Designer: Hozayfa Mustafa Elsheikh
 - Created At: 12-Feb-2023
+- Live Demo: https://hozayfaelsh.000webhostapp.com/Food-POS-Dark/
 
 Languages and Technologies used:
 - HTML
