@@ -283,8 +283,28 @@
       <!-- Cart -->
       <div class="cart">
         <!-- Cart Order Number -->
-        <h1>Orders #34562</h1>
+        <div class="cart-order-number">
+          <h1>Orders #34562</h1>
+        </div>
         <!-- End of Cart Order Number -->
+        <!-- Cart Confimation Order  -->
+        <div class="cart-order-confirmation">
+          <!-- Cart back -->
+          <div class="cart-back-button" id="cart-back-button">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <!-- End of Cart back -->
+          <div class="cart-order-confirmation-add-button">
+            <div>
+              <h1>Confrimation</h1>
+              <p>Orders #34562</p>
+            </div>
+            <div>
+              <button class="cart-add"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- End of Confimation Order   -->
         <!-- Cart Buttons  -->
         <div class="cart-buttons">
           <!-- Cart Button  -->
@@ -614,11 +634,67 @@
         </div>
         <!-- End of Cart table  -->
         <!-- Continue to Payment Button  -->
-        <button class="payment-btn">Continue to Payment</button>
+        <button class="payment-btn" id="payment-btn">
+          Continue to Payment
+        </button>
         <!-- End of Continue to Payment Button  -->
+      </div>
+      <!-- End of Cart -->
+
+      <!-- payment -->
+      <div class="payment">
+        <!-- payment titles -->
+        <div class="payment-titles">
+          <h1>Payment</h1>
+          <p>3 payment methods available</p>
+        </div>
+        <!-- End of payment titles -->
+        <div class="payment-body">
+          <h1>Payment Method</h1>
+          <div class="payment-methods">
+            <div class="payment-method-button">
+              <input type="radio" id="credit" name="payment-method" />
+              <label for="credit">
+                <div>
+                  <i class="fa-solid fa-credit-card"></i><br />
+                  Credit Card
+                </div>
+              </label>
+            </div>
+            <div class="payment-method-button">
+              <input type="radio" id="paypal" name="payment-method" />
+              <label for="paypal">
+                <div>
+                  <i class="fa-brands fa-paypal"></i><br />
+                  Paypal
+                </div>
+              </label>
+            </div>
+            <div class="payment-method-button">
+              <input type="radio" id="cash" name="payment-method" />
+              <label for="cash">
+                <div>
+                  <i class="fa-solid fa-wallet"></i><br />
+                  Cash
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- End of Cart -->
     </div>
     <!-- End of Main -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
