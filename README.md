@@ -7,6 +7,7 @@
 Languages and Technologies used:
 - HTML
 - CSS
+- Javascript
 
 Devices
 - Desktop
